@@ -1,0 +1,130 @@
+{
+  "burgers": [
+    {
+      "id": "classic-beef",
+      "title": "Classic Beef Burger",
+      "subtitle": "juicy & iconic",
+      "steps": [
+        {
+          "id": "bun-choice",
+          "type": "multiple-choice",
+          "instruction": "Choose your bun",
+          "summaryLabel": "Bun",
+          "options": ["Sesame Bun", "Brioche Bun", "Lettuce Wrap"],
+          "feedback": null
+        },
+        {
+          "id": "protein-choice",
+          "type": "multiple-choice",
+          "instruction": "Choose your protein",
+          "summaryLabel": "Protein",
+          "options": ["Single Beef Patty", "Double Beef Patty", "Plant Based Patty"],
+          "feedback": null
+        },
+        {
+          "id": "topping-choice",
+          "type": "multiple-choice",
+          "instruction": "Pick a topping",
+          "summaryLabel": "Topping",
+          "options": ["Lettuce", "Tomato", "Cheese", "Bacon"],
+          "feedback": null
+        },
+        {
+          "id": "sauce-amount",
+          "type": "text",
+          "instruction": "Enter sauce servings",
+          "summaryLabel": "Sauce Amount",
+          "feedback": {
+            "type": "greater-than",
+            "value": 3,
+            "message": "That might be too much sauce, babe!"
+          }
+        },
+        {
+          "id": "presentation-choice",
+          "type": "image-selection",
+          "instruction": "Choose your burger presentation",
+          "summaryLabel": "Presentation",
+          "imageOptions": [
+            {
+              "url": "https://i.imgur.com/4AiXzf8.jpeg",
+              "isCorrect": false
+            },
+            {
+              "url": "https://i.imgur.com/1ne3Lzl.jpeg",
+              "isCorrect": true
+            },
+            {
+              "url": "https://i.imgur.com/kHhYv7w.jpeg",
+              "isCorrect": false
+            }
+          ],
+          "feedback": null
+        }
+      ]
+    },
+    {
+      "id": "grilled-chicken",
+      "title": "Grilled Chicken Burger",
+      "subtitle": "light & flavorful",
+      "steps": [
+        {
+          "id": "bun-choice",
+          "type": "multiple-choice",
+          "instruction": "Choose your bun",
+          "summaryLabel": "Bun",
+          "options": ["Sesame Bun", "Brioche Bun", "Lettuce Wrap"],
+          "feedback": null
+        },
+        {
+          "id": "protein-choice",
+          "type": "multiple-choice",
+          "instruction": "Choose your protein",
+          "summaryLabel": "Protein",
+          "options": ["Grilled Chicken", "Crispy Chicken", "Spicy Chicken"],
+          "feedback": null
+        },
+        {
+          "id": "topping-choice",
+          "type": "multiple-choice",
+          "instruction": "Pick a topping",
+          "summaryLabel": "Topping",
+          "options": ["Lettuce", "Tomato", "Cheese", "Avocado"],
+          "feedback": null
+        },
+        {
+          "id": "sauce-amount",
+          "type": "text",
+          "instruction": "Enter sauce servings",
+          "summaryLabel": "Sauce Amount",
+          "feedback": {
+            "type": "greater-than",
+            "value": 2,
+            "message": "Too much sauce on chicken, babe!"
+          }
+        },
+        {
+          "id": "presentation-choice",
+          "type": "image-selection",
+          "instruction": "Choose your burger presentation",
+          "summaryLabel": "Presentation",
+          "imageOptions": [
+            {
+              "url": "https://i.imgur.com/XMPcM7E.jpeg",
+              "isCorrect": false
+            },
+            {
+              "url": "https://i.imgur.com/QdFBlfD.jpeg",
+              "isCorrect": true
+            },
+            {
+              "url": "https://i.imgur.com/2QpCP6x.jpeg",
+              "isCorrect": false
+            }
+          ],
+          "feedback": null
+        }
+      ]
+    }
+  ]
+}
