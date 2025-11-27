@@ -46,19 +46,19 @@
           "instruction": "Choose your burger presentation",
           "summaryLabel": "Presentation",
           "imageOptions": [
-            {
-              "url": "https://i.imgur.com/4AiXzf8.jpeg",
-              "isCorrect": false
-            },
-            {
-              "url": "https://i.imgur.com/1ne3Lzl.jpeg",
-              "isCorrect": true
-            },
-            {
-              "url": "https://i.imgur.com/kHhYv7w.jpeg",
-              "isCorrect": false
-            }
-          ],
+  {
+    "url": "https://raw.githubusercontent.com/RKIACADEMY/project-3-spa-application-jessicakoo9/main/src/1.png",
+    "isCorrect": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RKIACADEMY/project-3-spa-application-jessicakoo9/main/src/2.png",
+    "isCorrect": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RKIACADEMY/project-3-spa-application-jessicakoo9/main/src/3.png",
+    "isCorrect": false
+  }
+],
           "feedback": null
         }
       ]
@@ -109,19 +109,19 @@
           "instruction": "Choose your burger presentation",
           "summaryLabel": "Presentation",
           "imageOptions": [
-            {
-              "url": "https://i.imgur.com/XMPcM7E.jpeg",
-              "isCorrect": false
-            },
-            {
-              "url": "https://i.imgur.com/QdFBlfD.jpeg",
-              "isCorrect": true
-            },
-            {
-              "url": "https://i.imgur.com/2QpCP6x.jpeg",
-              "isCorrect": false
-            }
-          ],
+  {
+    "url": "https://raw.githubusercontent.com/RKIACADEMY/project-3-spa-application-jessicakoo9/main/src/4.png",
+    "isCorrect": false
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RKIACADEMY/project-3-spa-application-jessicakoo9/main/src/5.png",
+    "isCorrect": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RKIACADEMY/project-3-spa-application-jessicakoo9/main/src/6.png",
+    "isCorrect": false
+  }
+],
           "feedback": null
         }
       ]
